@@ -33,4 +33,10 @@ div.cell {
     height: 100%;
     border-left: 1px solid #464646;
     border-bottom: 1px solid #464646;
+    transition: background-color 0.1s;
+}
+
+div.--marked {
+    background-color: #101010;
+    border: none;
 }

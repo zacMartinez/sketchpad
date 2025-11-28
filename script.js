@@ -15,3 +15,7 @@ for (let i = 0; i < dimension; i++) {
     
     canvas.appendChild(row);
 }
+
+canvas.addEventListener('mouseover', (e) => {
+    e.target.classList.add('--marked');
+})
