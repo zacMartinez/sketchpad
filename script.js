@@ -2,7 +2,7 @@ const canvas = document.querySelector('#canvas');
 const clearBtn = document.querySelector('#clear');
 const min = 2;
 const max = 128;
-let defaultSize = 16;
+const defaultSize = 16;
 
 function drawGrid(target, dimension) {
     target.innerHTML = '';
